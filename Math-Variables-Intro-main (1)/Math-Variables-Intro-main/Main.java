@@ -31,12 +31,12 @@ class Main {
     //For now we are just going to work with primitive
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
-int grade,age, cars = 67;
+int grade,age, cars = 100;
 grade = age = cars;
 double gpa, weight, double2 = 5.00;
 boolean bool1, bool2 = true;
 
-System.out.println(grade);
+System.out.println("Your grade is: "+grade);
 
     //MATH TIME!
 
@@ -49,13 +49,34 @@ System.out.println(grade);
 
     //Odd integers from 1 to 100, inclusive of both
 
-
+int odd = -1;
+    for (int i = 0; i<50; i++)
+{
+  odd += 2;
+  System.out.println(odd);
+}
 
     //All multiples of 3 from 1 to 100
 
+    int mult3 = 0;
+for (int i = 0; i<33; i++)
+{
+ mult3 += 3;
+ System.out.println(mult3);
+}
 
 
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
+int thousand = 1010;
+    for (int i = 0; i<101; i++)
+{
+  thousand -= 10;
+  System.out.print(thousand);
+  for (int k = 0; k<1; k++)
+  {
+    System.out.print("-");
+  }
+}
   }
 }
